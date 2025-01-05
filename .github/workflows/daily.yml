@@ -16,3 +16,4 @@ jobs:
       - uses: docker://ghcr.io/starhearthunt/ff14risingstone_sign_task:master
         with:
           cookie: ${{ secrets.COOKIE }}
+          user_agent: ${{ secrets.UA }}
